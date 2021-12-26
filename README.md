@@ -17,6 +17,15 @@ For all of our analyses, we drill down to the most specific subcategory we can, 
 
 For our first analysis, we will look at the time of year that each project was launched.  A pivot table was created to group projects by the month in which they were launched, irrespective of year, to attempt to find an ideal time of year to launch a theater kickstarter.  Year launched was also included as a filter, so that results could be more finely targeted at the past few recent years if needed.  In so doing, we find that not only does May have the largest number of theater projects launched, but the largest number of successful projects, and the best rate of success among other months.  June is also a good month to start a theater kickstarter, being only slightly worse than May in these metrics.
 
+![Theater Outcomes Based On Launch Date](https://user-images.githubusercontent.com/38693762/147396249-e61d0a6f-3a42-4781-8b46-044fc3c35da5.png)
+
+
 ### Fundraising Goal
 
 For our second analysis, we looked at theater kickstarter outcomes as a function of their initial fundraising goals.  For this, formulas were used to add up the number of outcomes in each category, grouped according to fundraising goal ranges.  As with the last analysis, we make sure to disregard projects that aren't in relevant categories.  Through this, we find that lower goals tend to be more successful.  While projects with goals ranging from $35000 to $44999 have good rates of success, the sample sizes for those goal ranges are very small.  Our data for the smaller goals is, by comparison, much more reliable.  From the data, it would appear that a goal under $5000 tends to have the greatest chance of success.
+
+![Theater Outcomes Based On Goal](https://user-images.githubusercontent.com/38693762/147396253-65a3a4e2-031b-462d-b56f-49518e37c71d.png)
+
+# Limitations and possible improvements:
+
+In some ranges of data analysis, our available data is a little lean.  It may have been a good idea to find and include data from other crowdfunding websites, such as indiegogo or gofundme.  With this additional data available, we could be more confident in the conclusions we reach, and could even compare the performance of fundraising projects on each website, to find exactly which platform is best for a theater production.
